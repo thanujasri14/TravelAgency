@@ -1,0 +1,101 @@
+.main{
+	width: 100%;
+	height: 100vh;
+	background: rgb(0, 0, 0,0.7) url("pro3.jfif");
+	background-size: cover;
+	background-blend-mode: darken;
+}
+.header ul{
+	float: right;
+	text-decoration: none;
+	list-style-type: none;
+	/*display: inline-block;*/
+	margin-right: 50px;
+	margin-top: 10px;
+}
+.header ul li{
+	float: right;
+	margin-left: 50px;
+	color: lightgrey;
+	font-size: 20px;
+}
+.header{
+	padding-top: 50px;
+}
+.logo{
+	font-size: 30px;
+	font-weight: bolder;
+	color: darkgrey;
+	margin:50px 0 0 50px;
+
+}
+.heading
+{
+	padding-left: 50px;
+	color: lightgrey;
+	margin-top: 100px;
+	font-size: 50px;
+}
+.form-group{
+	margin-left: 100px;
+	height: 50px;
+}
+.btn-info{
+	margin-top: 10px;
+	float: right;
+}
+.row ul{
+	float: left;
+	text-decoration: none;
+	list-style-type: none;
+	/*display: inline-block;*/
+	margin-right: 50px;
+	margin-top: 100px;
+}
+.row ul li{
+	float: left;
+	margin-left: 80px;
+	color:lightgrey;
+	font-size: 30px;
+}
+.row ul{
+		margin-top: 	 0px;
+		float: left;
+}
+.footer{
+	padding: 20px 9%;
+	text-decoration: none;
+}
+.footer .container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+.footer .container .box{
+	flex: 1 1 250px;
+}
+.footer .container .box h3{
+	color: #333;
+	font-size: 25px;
+	padding: 10px 0;
+}
+.footer .container .box a{
+	display: block;
+	color: #666;
+	font-size: 15px;
+	padding: 10px 0;
+	text-decoration: none;
+}
+.footer .container .box a:hover{
+	text-decoration: underline;
+	color: lightcoral;
+}
+.footer .copyright{
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 0;
+	margin-top: 15px;
+	font-size: 14px;
+	color: #333;
+	border-top: 1ps solid rgba(0, 0, 0, 0.1);
+}

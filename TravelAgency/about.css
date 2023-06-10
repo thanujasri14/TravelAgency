@@ -1,0 +1,9 @@
+.main{
+	width: 100%;
+	height: 100vh;
+	background: rgb(0, 0, 0,0.7) url(pro4.jfif);
+	background-size: cover;
+}
+.heading p{
+	font-size: 20px;
+}
